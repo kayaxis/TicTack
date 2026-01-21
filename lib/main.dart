@@ -19,11 +19,6 @@ class TicTacToeScreen extends StatefulWidget {
   _TicTacToeScreenState createState() => _TicTacToeScreenState();
 }
 
-class TicTacToeScreen extends StatefulWidget {
-  @override
-  _TicTacToeScreenState createState() => _TicTacToeScreenState();
-}
-
 class _TicTacToeScreenState extends State<TicTacToeScreen> {
   List<String> board = List.filled(9, '');
   bool isXTurn = true;
